@@ -1,7 +1,7 @@
 Projeto desenvolvido depois de ter visto o video do Breno Perrucho falando sobre as formulas do capital ideal que deveriamos ter com cada idade.
 
 Pela primeira vez coloquei um projeto também no Heroku
-https://dashboard.heroku.com/apps/pinf-app2
+https://pinf-app2.herokuapp.com/
 
 E aprendi como usar a função nativa do Js para formatar variaveis para alguma tipo de moeda.
 toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
