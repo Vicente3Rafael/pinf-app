@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Quanto você deveria ter hoje?</title>
+</head>
+<body>
+    <div id="ever">
+        
+        <main>
+            <form action="">
+
+                <h1>Quanto você deveria ter hoje?</h1>
+
+                <fieldset>
+                    <legend>
+                        <h2>Fórmula do patrimônio ideal</h2>   
+                    </legend>
+
+                    <div class="field-group">
+                        <div id="custoMensal" class="field">
+                            <label for="">Seu custo mensal:</label>
+                            <input type="text" id="mensal">
+                        </div>
+
+                        <div id="idade" class="field">
+                            <label for="">Sua idade em anos: </label>
+                            <input type="text" id="idadeAnos">
+                        </div>
+
+                        <div class="field">
+                            <button type="button" onclick="calcular();">Calcular</button>
+                        </div>
+
+                        <div class="field">
+                            <label for="">Resultado:</label>
+                            <input type="text" name="result" id="result">
+                        </div>
+
+                    </div>
+                    
+                    <legend>
+                        <h2>Fórmula do patrimônio necessário para independência financeira</h2>
+                    </legend>
+
+                    <div class="field-group">
+                        <div id="rentabilidade" class="field">
+                            <label for="">Sua rentabilidade em investimentos:</label>
+                            <input type="text" id="rent">
+                        </div>
+
+                        <div class="field">
+                            <button type="button" onclick="calcularTwo();">Calcular</button>
+                        </div>
+                        
+                        <div id="patrimonioIndependenciaFinanceira" class="field">
+                            <label for="">Patrimônio Necessário:</label>
+                            <input type="text" name="result" id="resultThree">
+                        </div>
+
+                        <div id="independenciaFinanceira" class="field">
+                            <label for="">Idade que alcançará:</label>
+                            <input type="text" name="result" id="resultTwo">
+                        </div>
+
+
+                    </div>
+
+                </fieldset>
+            </form>
+        </main>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
